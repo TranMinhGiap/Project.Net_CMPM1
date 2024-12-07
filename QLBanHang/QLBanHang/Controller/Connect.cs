@@ -12,7 +12,7 @@ namespace QLBanHang.Controller
     public class Connect
     {
         public SqlConnection connect;
-        private string sql = "Data Source=DESKTOP-VDPSTNV;Initial Catalog=QLBanHang2;User ID=sa; Password = 15092004";
+        private string sql = "Data Source=DESKTOP-VDPSTNV;Initial Catalog=QLBanHang;User ID=sa; Password = 123456 ;TrustServerCertificate=True";
         public Connect()
         {
             connect = new SqlConnection(sql);

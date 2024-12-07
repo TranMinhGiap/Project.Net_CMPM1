@@ -54,7 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Connect.cs" />
+    <Compile Include="Controller\dbCustomer.cs" />
+    <Compile Include="Controller\DbEmployee.cs" />
+    <Compile Include="Controller\dbInvoiceDetails.cs" />
     <Compile Include="Controller\dbProduct.cs" />
+    <Compile Include="Controller\dbPurchaseInvoice.cs" />
     <Compile Include="Controller\dbSell.cs" />
     <Compile Include="Controller\dbSellDetail.cs" />
     <Compile Include="Controller\dbSupplier.cs" />
